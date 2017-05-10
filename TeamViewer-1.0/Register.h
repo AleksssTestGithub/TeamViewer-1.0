@@ -13,6 +13,7 @@ private:
 	void setHook(HHOOK);
 
 	static int eventCounter;
+	static void PushMessage(MSLLHOOKSTRUCT*);
 
 public:
 	Register();
