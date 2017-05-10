@@ -3,6 +3,8 @@
 
 int Register::eventCounter=0;
 
+//comment
+
 LRESULT Register::LowLevelMouseProc(int nCode, WPARAM wParam, LPARAM lParam)
 {
 	if (Register::eventCounter < 5 && wParam == WM_MOUSEMOVE)
