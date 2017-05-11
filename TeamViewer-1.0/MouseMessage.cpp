@@ -19,9 +19,7 @@ long MouseMessage::getYCoord()
 	return pt.y;
 }
 
-MouseMessage::MouseMessage(POINT pt, DWORD     mouseData,
-	DWORD     flags,
-	DWORD     time,
+MouseMessage::MouseMessage(POINT pt, DWORD mouseData,DWORD flags, DWORD time,
 	ULONG_PTR dwExtraInfo):Message(0)
 {
 	this->pt = pt;

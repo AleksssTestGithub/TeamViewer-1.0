@@ -21,9 +21,10 @@ LRESULT Register::LowLevelMouseProc(int nCode, WPARAM wParam, LPARAM lParam)
 #endif
 		tstringstream stros;
 		stros << x<<" "<<y;
-		MessageBox(NULL, stros.str().c_str(), L"MouseCoords", MB_OK);
+		
 		PushMessage(points);
 		Register::eventCounter++;
+		MessageBox(NULL, stros.str().c_str(), L"MouseCoords", MB_OK);
 	}
 	//TODO: remove!!!
 	return LRESULT();
