@@ -149,11 +149,13 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Message.cpp" />
     <ClCompile Include="MouseMessage.cpp" />
+    <ClCompile Include="PullMessage.cpp" />
     <ClCompile Include="Register.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Message.h" />
     <ClInclude Include="MouseMessage.h" />
+    <ClInclude Include="PullMessage.h" />
     <ClInclude Include="Register.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
